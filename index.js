@@ -9,8 +9,8 @@ const port = process.env.PORT || 3001
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.get("/hola", (req, res) => {
-    res.send("Hello World")
+app.get("/person/:name", (req, res) => {
+    res.send(`Hello ${req.params.name}`)
 } )
 
 app.listen(3001, () => {
