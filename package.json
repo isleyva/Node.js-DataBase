@@ -1,0 +1,19 @@
+{
+  "name": "node.js-practices",
+  "version": "1.0.0",
+  "description": "proyecto node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isleyva/Node.js-practices.git"
+  },
+  "author": "ivan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isleyva/Node.js-practices/issues"
+  },
+  "homepage": "https://github.com/isleyva/Node.js-practices#readme"
+}
