@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/isleyva/Node.js-practices/issues"
   },
-  "homepage": "https://github.com/isleyva/Node.js-practices#readme"
+  "homepage": "https://github.com/isleyva/Node.js-practices#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
