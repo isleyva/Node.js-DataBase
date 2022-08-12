@@ -13,9 +13,15 @@ app.get("/api/product", (req, res) => {
     res.send(200, {products: []})
 } )
 
-app.get ('/api/product/:productIDçd', (req, res) => {})
+app.get ('/api/product/:productIDçd', (req, res) => {
+    res.send(200, {product: []})
+})
 
-app.post("/api/product", (req, res) => {})
+app.post("/api/product", (req, res) => {
+    console.log(req.body)
+    res.send(200, {message: "el producto se ha posteado"})
+})
+
 
 app.put("/api/product/:productID", (req, res) => {})
 
