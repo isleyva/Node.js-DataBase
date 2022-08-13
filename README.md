@@ -7,3 +7,9 @@ Node & express server exercises.
 npm install
 ```
 
+##Techs
+
+-MongoDB
+-Node.js
+-Express
+
