@@ -13,7 +13,7 @@ app.get("/api/product", (req, res) => {
     res.send(200, {products: []})
 } )
 
-app.get ('/api/product/:productIDçd', (req, res) => {
+app.get ('/api/product/:productID', (req, res) => {
     res.send(200, {product: []})
 })
 
