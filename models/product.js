@@ -11,4 +11,4 @@ const productSchema =  Schema({
     category: { type: String, enum: ["computers", "phones", "accesories"] },
 })
 
-const Product = mongoose.model("Product", productSchema)
+module.exports = mongoose.model("Product", productSchema)
