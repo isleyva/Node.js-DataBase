@@ -2,7 +2,7 @@
 
 CONTENTS OF THIS FILE
 
-Introduction Requirements Installation Configuration Deployment
+Introduction 
 
 Basic data base using Node.js, Express and Mongo DB.
 
